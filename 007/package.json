@@ -1,0 +1,16 @@
+{
+    "name": "robots-vs-lasers-redux",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node app.js",
+        "test": "./node_modules/.bin/mocha -R nyan test --recursive"
+    },
+    "bin": {
+        "run": "node app.js"
+    },
+    "dependencies": {
+        "mocha": "*",
+        "sinon": "*"
+    }
+}
